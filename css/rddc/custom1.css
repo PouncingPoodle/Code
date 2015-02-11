@@ -1,0 +1,356 @@
+/* Custom CSS Document */
+
+/*
+0A3B5B
+*/
+
+a#inlineA{
+	display:inline;
+	text-decoration:underline;
+	color:#000;
+	font-size: 14px;
+    font-weight: lighter;
+}
+
+.navbar{
+	border-bottom:1px solid #0A3B5B;
+	height:90px;
+	padding-top:10px;
+	background-color:#fff;
+}
+
+.navbar-collapse{
+	background-color:#fff;
+}
+
+.navbar-right{
+	margin-top:13px;
+}
+
+.navbar-header{
+	background-color:#fff;
+}
+
+body{
+	margin-top:90px;
+}
+
+.jumbo{
+	background-color:transparent;
+	padding:0px;
+	width:100%;
+	margin:0px;
+	margin-top:0px;
+	margin-bottom:50px;
+}
+
+.jumbo img{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.jumbotron {
+	background-color:transparent;
+	padding:0;
+}
+
+.container .jumbotron{
+	padding:0;
+}
+
+.jumbotron p {
+	font-size:18px;
+}
+
+.jumbotron h1 {
+	font-size:30px;
+}
+
+.jumbotron h2 {
+	font-size:22px;
+	line-height:30px;
+	margin-top:20px;
+}
+
+.image-bank{
+	padding-top:20px;
+	height:70px;
+	border-top:1px solid #0A3B5B;
+}
+
+.image-bank img{
+	width:100%;
+}
+
+footer{
+    background-color: #0A3B5B;
+	padding:50px 0px 50px 0px;
+	margin-top:50px;
+}
+
+h1{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;        
+    margin-top: 5px;
+}
+
+h2{
+    font-size: 22px;
+    line-height: 45px;
+    margin-top: 5px;
+    font-weight: lighter;
+	font-style:italic;
+}
+
+h3 label{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight:bold;  !important      
+    margin-top: 5px;
+}
+
+h3{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight:bold; !important       
+    margin-top: 5px;	
+}
+
+p{
+	font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul, li{
+    display:block;
+    list-style-type:none;
+    margin:0px auto;
+    padding:0px 30px 0px 30px;
+}
+
+footer ul, li {
+	padding:0px;
+}
+
+a{
+    display:block;
+    text-decoration:none;
+    color:#0A3B5B;
+    font-size:16px;
+	font-weight:bold;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#0A3B5B;
+}
+
+a:hover{
+	font-weight:bolder;
+	color:#fff;
+	text-decoration:none;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#666;
+}
+
+footer h1#hov:hover{
+	color:#CCC;
+}
+
+footer h1:hover{
+	font-weight:bolder;
+	color:#fff;
+	text-decoration:none;
+}
+
+footer a, footer p {
+	color:#fff;
+	font-size:14px;
+	line-height:30px;
+	font-weight:normal;
+}
+
+footer h1 {
+	color:#fff;
+	line-height:30px;
+}
+
+#sidebar{
+	background-color:#1684CC;
+	padding:15px 0 20px 20px;
+	color:#fff;
+	float:right;
+}
+
+.row#sidebar{
+	margin-right:0;	
+}
+
+#contactpage{
+	float:left;
+	background-color:#0A3B5B;
+}
+
+.space{
+	padding-left:0px;
+	margin-bottom:20px;
+}
+
+#big-form{
+	width:93%;
+}
+
+header#top{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+#logo{
+	height:70px;
+}
+
+#number{
+	width:40%;
+	margin-bottom:10px;
+}
+
+.process{
+	text-align:center;
+}
+
+input, button, select, textarea, select{
+	width:100%;
+	height:30px;
+	color:#000;
+}
+
+label{
+	width:100%;
+	margin-bottom:15px;
+	font-weight:normal;
+}
+
+input#checkbox{
+	width:auto;
+	height:auto;
+	margin-right:10px;
+}
+
+#submit{
+	color:#0A3B5B;
+	font-weight:bold;
+}
+
+textarea{
+	height:70px;
+}
+
+#big-form p{
+	line-height:22px;
+	margin-bottom:20px;
+}
+
+footer label{
+	color:#fff;
+}
+
+#review{
+	color:#fff;
+	text-align:center;
+	width:100%;
+}
+
+.btn#review{
+	padding-top:15px;
+}
+
+#side{
+	float:right;
+}
+
+.row#side{
+	margin-right:0;	
+}
+
+.glyphicon{
+	margin-right:10px;
+}
+
+.btn-lg{
+	border-radius:0;
+}
+
+.btn-primary{
+	background-color:#1684CC;
+	border:none;
+}
+
+hr{
+	border: 0;
+    border-bottom: 1px dashed #1684CC;
+	width:100%;
+}
+
+.panel-default>.panel-heading{
+	background-color:#316887;
+	border:1px solid #316887;
+	border-radius:0px;
+}
+
+.panel-default{
+	border:1px solid #316887;
+}
+
+.panel-group .panel{
+	border-radius:0px;
+}
+
+.panel-title{
+	color:#fff;
+}
+.panel-title:visited{
+	text-decoration:none;
+}
+
+.panel-body{
+	padding-left:150px;
+	padding-right:150px;
+	padding-top:50px;
+}
+
+.panel-body #big-form{
+	width:100%;
+}
+
+#marg .space {
+	margin-bottom:8px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+.bx-wrapper .testimonials-title{ text-align: center;  margin: 25px 15px 3px; font-size: 24px; line-height: 1; }
+.bx-wrapper .testimonials-carousel-context{ overflow: hidden; }
+.bx-wrapper .testimonials-name{ font-size: 18px; margin-bottom: 15px; color:#34627F; font-weight:400;}
+.bx-wrapper p{color:#34627F;}
+.bx-wrapper {margin: 0;padding: 0;width:100%;*zoom: 1;max-width:none; !important}
+.bx-wrapper .slide {padding:0;margin:0;display: block;}
+.bx-wrapper .bx-viewport {padding:0;margin-left:0;z-index:1;width:100%;}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {position: absolute;display:none;bottom: -30px;width: 100%;}
+.bx-wrapper .bx-loading {min-height: 50px;background: url(images/bx_loader.gif) center center no-repeat #fff;height: 100%;width: 100%;position: absolute;top: 0;left: 0;z-index: 2000;}
+.bx-wrapper .bx-pager {text-align: center;font-size: .85em;font-weight: bold;color: #666;padding-top: 20px;}
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {display: inline-block;*zoom: 1;*display: inline;}
+.bx-wrapper .bx-pager.bx-default-pager a {background: #666;text-indent: -9999px;display: block;width: 10px;height: 10px;margin: 0 5px;outline: 0;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {background: #000;}
+.bx-wrapper .bx-next {position: absolute;top: 0;right: 0;width: 50px;border-left:1px solid #ddd;height: 50px;cursor: pointer;background: #1684CC url(images/caousel-next.png) no-repeat 0 0 ;color:#fff;font-size:12px;padding-top:8px;padding-left:3px;}
+.bx-wrapper .bx-prev {position: absolute;top: 0px;right: 30px;border-right:1px solid #ddd;width: 50px;height: 50px;cursor: pointer;background: #1684CC url(images/caousel-prev.png) no-repeat 0 0 ;color:#fff;font-size:12px;padding-top:8px;padding-left:3px;}
+.bx-wrapper .bx-controls-direction a {position: relative;float:left;margin-top: 0;margin-right: 0px;outline: 0;width: 35px;height: 35px;z-index: 9999;}
+.bx-controls-direction{float:right;}

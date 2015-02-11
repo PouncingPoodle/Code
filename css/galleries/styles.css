@@ -1,0 +1,164 @@
+/* CSS Document */
+
+html{
+    background-color:#FFFFFF;
+}
+
+header{
+    width:960px;
+    background-color: #FFFFFF;
+}
+
+/* -------------- NAVIGATION -------------- */
+ul {
+    margin: 0px auto;
+    width: 100%;
+}
+
+li {
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+}
+
+nav ul, li {
+    display: block;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #535353;
+    margin: 0px auto;
+    margin-top: 5px;
+    font: normal 18px/40px Verdana, Geneva, sans-serif;
+}
+
+nav{
+    margin:0px auto;
+    display: block;
+    height: 50px;
+    float: left;
+    width:960px;
+}
+
+ul, li{
+    display:block;
+    list-style-type:none;
+    margin:0px auto;
+    padding:0px;
+}
+
+nav ul{
+    display: block;
+    margin:0px auto;
+    width:960px;
+}
+
+nav ul li{
+    float:left;
+    display: block;
+    width:14%;
+    text-align:center;
+    margin:0px auto;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: #222222;
+    margin: 0px auto;
+    margin-top: 5px;
+    font: normal 18px/40px Verdana, Geneva, sans-serif;
+}
+
+body{
+    width:960px;
+    margin:0px auto;
+    display:block;	
+    background-color: #FFFFFF;
+}
+
+div{
+    display: block;
+    float:left;
+}
+
+h1{
+    color: #222222;
+    margin-top: 5px;
+    font: normal 21px/40px Verdana, Geneva, sans-serif;
+}
+
+h2{
+    color: #222222;
+    margin-top: 5px;
+    font: lighter 24px/40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+p{
+    color: #222222;
+    margin: 0px;
+    padding: 0px;
+    font: 16px/21px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.icons img{
+    width:300px;
+    height:300px;
+    margin:0px auto;
+}
+
+#myGallery {  
+    width: 960px !important;
+    height: 500px !important;
+}
+
+.content{
+    margin-bottom: 20px;
+}
+
+#gallery ul li a img{
+    margin-right: 10px;
+}
+
+.heading {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#gallery {
+    width: 900px;
+    margin: 0px auto;
+}
+
+#gallery img {
+    width: 290px;
+    height: 250px;
+    display: block;
+    float: left;
+}
+
+#block{
+    width: 900px;
+    height: 900px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.fancybox img{
+    margin-top:50px;
+}
+
+/* ------------------------------ CLEARFIX------------------------------ */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}

@@ -1,0 +1,62 @@
+/* panel */
+.panel, .panelcollapsed {
+	width: 100%;
+	background: #316887;
+	margin-bottom:20px;
+	/*margin: 5px;
+	padding: 0px 0px 5px;
+	border: 1px solid #999;
+	margin-left: 10px;*/
+	border-radius:0px;
+	color:#fff;
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding-left: 10px;
+
+	background-color: #316887;
+	background-size: 100%;
+	color:#fff;
+	font-style:normal;
+	
+	/*background-repeat: no-repeat;
+	border-bottom: 1px solid #999;*/
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { 
+	background-color: #316887;
+	color:#fff;
+	cursor:pointer;
+	font-weight: normal;
+}
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	/*padding-left: 10px;*/
+	background-color: #316887;
+	background-size: 690px;
+	color:#fff;
+	
+	/*background-image: url(../image/arrow-dn.gif);*/
+}
+
+/* panel content - do not set borders or paddings */
+.panelcontent { 
+	background: #FFF; 
+	padding:20px;
+	width: 100%;
+	color:#0A3B5B;
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { 
+	display: none;
+}
